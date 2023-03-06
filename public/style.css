@@ -1,0 +1,54 @@
+body {
+    
+    margin: 0;
+    background-color:#8D8DF7 ;
+}
+
+#Top {
+
+    display: flex;
+    height: 100%;
+    background-color:#4141F5;
+    border-radius: 0px 0px 10px 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#F5D442;
+
+}
+
+header {
+
+    height: 100%;
+    padding: 40px;
+    
+}
+
+h3, h1 {
+    margin: 0;
+
+}
+
+#button {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+button {
+    
+    width: 180px;
+    height: 60px;
+    border-radius: 5px;
+    border: #F5D442;
+
+}
+
+footer {
+    
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+}
